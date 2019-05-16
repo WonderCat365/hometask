@@ -11,6 +11,7 @@ public class SumServlet extends HttpServlet {
 
     private int firstDigit;
     private int secondDigit;
+
     private int result;
 
     public int getFirstDigit() {

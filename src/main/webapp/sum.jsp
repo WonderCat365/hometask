@@ -27,8 +27,8 @@ Hello there
     <%--    Result: ${result}--%>
     Result:
     <%
-        //        String str = (String) request.getAttribute("result");
-        if (request.getAttribute("result") != null) out.print(request.getAttribute("result"));
+        if (request.getAttribute("result") != null) out
+                .print(request.getAttribute("result"));
 
     %>
 </h1>
