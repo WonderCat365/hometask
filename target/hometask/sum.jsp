@@ -24,11 +24,11 @@ Hello there
     <button type="submit">Calculate</button>
 </form>
 <h1>
-<%--    Result: ${result}--%>
+    <%--    Result: ${result}--%>
     Result:
     <%
-//        String str = (String) request.getAttribute("result");
-        if(request.getAttribute("result") != null) out.print(request.getAttribute("result"));
+        //        String str = (String) request.getAttribute("result");
+        if (request.getAttribute("result") != null) out.print(request.getAttribute("result"));
 
     %>
 </h1>

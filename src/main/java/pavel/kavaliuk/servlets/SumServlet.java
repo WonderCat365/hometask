@@ -37,7 +37,6 @@ public class SumServlet extends HttpServlet {
         this.result = result;
     }
 
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
